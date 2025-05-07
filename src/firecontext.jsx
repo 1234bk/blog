@@ -44,9 +44,6 @@ const FirebaseProvider = ({ children }) => {
       const result = await signInWithPopup(auth, provider);
       console.log("Signed in:", result);
       console.log("Signed in.user:", result.user);
-      
-      // console.log("User Info:", result.user);
-      // You can store user data in context or state here
     } catch (error) {
       alert("")
       console.error("Google Sign-In Error:", error.message);

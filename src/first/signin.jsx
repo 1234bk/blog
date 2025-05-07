@@ -2,7 +2,8 @@
 import React, { useState, useContext } from 'react';
 import { FirebaseContext } from '../firecontext';
 import { AiOutlineArrowLeft } from "react-icons/ai";
-
+import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 /*************  ✨ Windsurf Command ⭐  *************/
 /*******  04409609-5a3b-458f-a165-2bbe880f5525  *******/
@@ -11,6 +12,7 @@ const Signin = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const fb = useContext(FirebaseContext);
+  const navigate = useNavigate();
 
   return (
     <>
@@ -51,9 +53,10 @@ const Signin = () => {
             required
           />
           <div className="flex flex-col gap-4">
+            {/* <Link to="/home"> */}
             <button
-              type="submit"
-              className="bg-[#081c15] text-white py-2  hover:bg-[#40916c]  border-3 border-[#d8f3dc] hover:border-white transition duration-300"
+              type="submit" onClick={() => navigate('/home')}
+              className="bg-[#081c15] w-[15rem] text-white py-2  hover:bg-[#40916c]  border-3 border-[#d8f3dc] hover:border-white transition duration-300"
             >
               Login
             </button>
