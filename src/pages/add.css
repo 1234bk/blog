@@ -1,0 +1,134 @@
+.header{
+    font-size: 2.4rem;
+    font-weight: bold;
+
+   
+}
+
+.inp{
+    color: #d8f3dc;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+   
+    border-radius: 0.5rem;
+    background-color: #55a280;
+    border: 1px solid #d8f3dc
+}
+.sp{
+    font-size: 1.3rem;
+    font-weight: 350;
+    padding-left: 2px;
+}
+
+@keyframes shine {
+    0% {
+      background-position: -200% center;
+    }
+    100% {
+      background-position: 200% center;
+    }
+  }
+  
+  .shiny-gradient {
+    background: linear-gradient(
+      to bottom right,
+      #52B788,
+      #93D5B8,
+      #B7E4C7,
+      #93D5B8,
+      #52B788
+    );
+    background-size: 400% 400%;
+    animation: shine 5s linear infinite;
+  }
+  .shiny-red-gradient {
+    background: linear-gradient(
+      to bottom right,
+      #FF7F7F,
+      #FFB3B3,
+      #FFE5E5,
+      #FFB3B3,
+      #FF7F7F
+    );
+    background-size: 400% 400%;
+    animation: shine 5s linear infinite;
+  }
+
+  .shiny-blue-gradient {
+    background: linear-gradient(
+      to bottom right,
+      #6EC1E4,
+      #A8D8F0,
+      #E0F4FF,
+      #A8D8F0,
+      #6EC1E4
+    );
+    background-size: 400% 400%;
+    animation: shine 5s linear infinite;
+  }
+
+  
+.shiny-yellow-gradient {
+    background: linear-gradient(
+      to bottom right,
+      #FFD95A,
+      #FFF3B0,
+      #FFFBEA,
+      #FFF3B0,
+      #FFD95A
+    );
+    background-size: 400% 400%;
+    animation: shine 5s linear infinite;
+  }
+
+  .shiny-darkyellow-gradient {
+    background: linear-gradient(
+      to bottom right,
+      #F4B400,
+      #FFD54F,
+      #FFECB3,
+      #FFD54F,
+      #F4B400
+    );
+    background-size: 400% 400%;
+    animation: shine 5s linear infinite;
+  }
+
+  .shiny-darkred-gradient {
+    background: linear-gradient(
+      to bottom right,
+      #8B0000,
+      #B22222,
+      #DC6C6C,
+      #B22222,
+      #8B0000
+    );
+    background-size: 400% 400%;
+    animation: shine 5s linear infinite;
+  }
+
+  .shiny-darkblue-gradient {
+    background: linear-gradient(
+      to bottom right,
+      #0D1B2A,
+      #1B263B,
+      #415A77,
+      #1B263B,
+      #0D1B2A
+    );
+    background-size: 400% 400%;
+    animation: shine 5s linear infinite;
+  }
+
+  .shiny-violet-gradient {
+    background: linear-gradient(
+      to bottom right,
+      #B0A4D4,
+      #D1C6E1,
+      #F0E7F4,
+      #D1C6E1,
+      #B0A4D4
+    );
+    background-size: 400% 400%;
+    animation: shine 5s linear infinite;
+  }
